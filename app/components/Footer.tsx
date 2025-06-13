@@ -73,16 +73,16 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+234 - 0404-0303</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400 mt-1" />
                 <span className="text-gray-300">
-                  123 Tech Street
+                  51c Remi Fani Kayode Street
                   <br />
-                  Innovation District
+                  Ikeja GRA
                   <br />
-                  Tech City 12345
+                  Lagos
                 </span>
               </div>
             </div>

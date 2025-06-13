@@ -6,8 +6,8 @@ export default function CTA() {
     <section className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="bg-gradient-to-r from-blue-900 to-blue-700 rounded-2xl p-12 text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Business?</h2>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <h2 className="text-xl md:text-3xl font-bold mb-4">Ready to Transform Your Business?</h2>
+          <p className="text-base md:text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
             Let's discuss how Eagle Crest can build the perfect software solution for your organization. Get started
             with a free consultation today.
           </p>

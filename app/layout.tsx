@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Leading software development company building real-world solutions for individuals and organizations. Specializing in HRM, scholarship management, library systems, and payment gateways.",
   keywords: "software development, HRM, scholarship management, library management, payment gateway, Eagle Crest",
-    generator: 'v0.dev'
+    generator: ''
 }
 
 export default function RootLayout({

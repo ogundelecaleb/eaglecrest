@@ -12,7 +12,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center gradient-bg overflow-hidden">
+    <section className="relative min-h-screen pt-16 md:pt-18 lg:pt-24 flex items-center gradient-bg overflow-hidden">
       {/* Background Animation */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -29,12 +29,12 @@ export default function Hero() {
                 <CheckCircle className="h-5 w-5" />
                 <span className="text-sm font-medium">Trusted by 100+ Organizations</span>
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-4xl font-bold leading-tight">
                 Building
                 <span className="block text-blue-300">Software Solutions</span>
                 That Transform Business
               </h1>
-              <p className="text-xl text-blue-100 max-w-2xl">
+              <p className="text-sm md:text-base text-blue-100 text-justify lg:max-w-[80%]">
                 Eagle Crest specializes in developing real-world software solutions that solve complex problems for
                 individuals and organizations. From HRM systems to payment gateways, we deliver quality software that
                 complies with regulations.
@@ -73,19 +73,19 @@ export default function Hero() {
           <div className={`relative ${isVisible ? "fade-in" : "opacity-0"}`}>
             <div className="relative">
               {/* Main Card */}
-              <div className="bg-white rounded-2xl p-8 shadow-2xl float">
+              <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-8 shadow-2xl float">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="bg-blue-900 p-3 rounded-lg">
                     <CheckCircle className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900">Quality Assured</h3>
-                    <p className="text-gray-600">Regulation Compliant</p>
+                    <h3 className="text-sm md:text-base font-bold text-gray-">Quality Assured</h3>
+                    <p className="text-sm md:text-base text-gray-600">Regulation Compliant</p>
                   </div>
                 </div>
                 <div className="space-y-3">
                   <div className="flex justify-between">
-                    <span className="text-gray-600">Project Success Rate</span>
+                    <span className="text-sm md:text-base text-gray-600">Project Success Rate</span>
                     <span className="font-bold text-green-600">98%</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
@@ -99,16 +99,16 @@ export default function Hero() {
                 className="absolute -top-4 -right-4 bg-blue-500 text-white p-4 rounded-xl shadow-lg float"
                 style={{ animationDelay: "1s" }}
               >
-                <div className="text-2xl font-bold">24/7</div>
-                <div className="text-sm">Support</div>
+                <div className="text-base md:text-xl font-bold">24/7</div>
+                <div className="text-xs md:text-sm">Support</div>
               </div>
 
               <div
                 className="absolute -bottom-4 -left-4 bg-green-500 text-white p-4 rounded-xl shadow-lg float"
                 style={{ animationDelay: "2s" }}
               >
-                <div className="text-2xl font-bold">100%</div>
-                <div className="text-sm">Secure</div>
+                <div className="text-base md:text-xl font-bold">100%</div>
+                <div className="text-xs md:text-sm">Secure</div>
               </div>
             </div>
           </div>

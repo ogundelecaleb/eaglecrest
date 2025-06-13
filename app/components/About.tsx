@@ -29,8 +29,8 @@ export default function About() {
     <section className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose Eagle Crest?</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Why Choose Eagle Crest?</h2>
+          <p className="text-sm text-lg text-gray-600 max-w-3xl mx-auto">
             We are a leading software development company that specializes in building real-world solutions that solve
             complex problems for both individuals and organizations.
           </p>
@@ -38,12 +38,12 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-white p-8 rounded-xl shadow-lg card-hover">
-              <div className="bg-blue-900 p-3 rounded-lg w-fit mb-6">
+            <div key={index} className="bg-white p-4 md:p-6 rounded-xl shadow-lg card-hover">
+              <div className="bg-blue-900 p-2  rounded-lg w-fit mb-6">
                 <feature.icon className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">{feature.title}</h3>
+              <p className="text-gray-600 text-sm md:text-base">{feature.description}</p>
             </div>
           ))}
         </div>

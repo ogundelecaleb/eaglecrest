@@ -32,13 +32,10 @@ export default function Navbar() {
       }`}
     >
       <div className="container-custom">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-3 md:py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className="bg-blue-900 p-2 rounded-lg group-hover:bg-blue-800 transition-colors">
-              <Code className="h-6 w-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-blue-900">Eagle Crest</span>
+           <img src="ecrest.jpg" alt="Eagle crest Logo" className="h-10 rounded-lg" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -62,7 +59,9 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            className={`md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors ${
+        isScrolled ? " backdrop-blur-md   text-black " : "text-white"
+      }`}
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
