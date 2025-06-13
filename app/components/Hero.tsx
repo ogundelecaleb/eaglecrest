@@ -12,7 +12,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen pt-16 md:pt-18 lg:pt-24 flex items-center gradient-bg overflow-hidden">
+    <section className="relative min-h-screen pt-22 md:pt-22 lg:pt-24 flex items-center gradient-bg overflow-hidden">
       {/* Background Animation */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
@@ -70,7 +70,7 @@ export default function Hero() {
           </div>
 
           {/* Right Content - Floating Cards */}
-          <div className={`relative ${isVisible ? "fade-in" : "opacity-0"}`}>
+          <div className={`relative ${isVisible ? "fade-in" : "opacity-0"} py-8`}>
             <div className="relative">
               {/* Main Card */}
               <div className="bg-white rounded-xl md:rounded-2xl p-4 md:p-8 shadow-2xl float">
