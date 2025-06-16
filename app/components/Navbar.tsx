@@ -34,8 +34,8 @@ export default function Navbar() {
       <div className="container-custom">
         <div className="flex justify-between items-center py-3 md:py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2 group">
-           <img src="ecrest.jpg" alt="Eagle crest Logo" className="h-10 rounded-lg" />
+          <Link href="/" className="flex items-center  group">
+           <img src="ecrest.jpg" alt="Eagle crest Logo" className="h-12 rounded-lg" />
           </Link>
 
           {/* Desktop Navigation */}

@@ -43,7 +43,7 @@ export default function Services() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Our Software Solutions</h2>
-          <p className="text-sm text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-sm md:text-lg text-gray-600 max-w-3xl mx-auto">
             We build comprehensive software platforms that address real-world challenges across various industries and
             organizational needs.
           </p>

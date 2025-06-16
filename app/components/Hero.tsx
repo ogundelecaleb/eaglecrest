@@ -42,11 +42,11 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/services" className="btn-primary bg-white text-blue-900 hover:bg-blue-50">
+              <Link href="/services" className="py-2 md:py-3  bg-white text-blue-900 hover:bg-blue-50 rounded-lg flex justify-center gap-1 items-center px-2">
                 Explore Our Solutions
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link href="/about" className="btn-secondary border-white text-white hover:bg-white hover:text-blue-900">
+              <Link href="/about" className="py-2 md:py-3 border-2 rounded-lg border-white text-white hover:bg-white hover:text-blue-900 flex justify-center gap-1 items-center   px-2">
                 <Play className="mr-2 h-5 w-5" />
                 Learn More
               </Link>
@@ -55,11 +55,11 @@ export default function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-blue-700">
               <div>
-                <div className="text-3xl font-bold">100+</div>
+                <div className="text-3xl font-bold">15+</div>
                 <div className="text-blue-200">Projects Delivered</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">50+</div>
+                <div className="text-3xl font-bold">10+</div>
                 <div className="text-blue-200">Happy Clients</div>
               </div>
               <div>

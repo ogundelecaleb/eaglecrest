@@ -34,7 +34,7 @@ export default function Contact() {
       <section className="section-padding gradient-bg text-white">
         <div className="container-custom text-center">
           <h1 className="text-2xl md:text-4xl font-bold mb-6">Get In Touch</h1>
-          <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="text-base md:text-xl text-blue-100 max-w-3xl mx-auto">
             Ready to transform your business with custom software solutions? Let's discuss your project and how Eagle
             Crest can help you achieve your goals.
           </p>
@@ -47,7 +47,7 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-xl md:text-3xl  font-bold text-gray-900 mb-8">Let's Start a Conversation</h2>
+              <h2 className="text-lg md:text-2xl  font-bold text-gray-900 mb-8">Let's Start a Conversation</h2>
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-4">
@@ -67,8 +67,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-gray-900">Call Us</h3>
-                    <p className="text-gray-600">+234-8123-321</p>
-                    <p className="text-gray-600">+234-8123-321</p>
+                    <p className="text-gray-600">+234-703-000-0266</p>
                   </div>
                 </div>
 
@@ -100,7 +99,6 @@ export default function Contact() {
                 <p className="text-gray-600 mb-4">
                   Our support team is available 24/7 to help with any urgent issues or questions.
                 </p>
-                <p className="text-blue-900 font-semibold">Emergency: +234-8123-321</p>
               </div>
             </div>
 
@@ -196,7 +194,7 @@ export default function Contact() {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="btn-primary w-full">
+                <button type="submit" className="btn-primary w-fit">
                   <Send className="mr-2 h-5 w-5" />
                   Send Message
                 </button>

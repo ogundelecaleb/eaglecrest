@@ -10,12 +10,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-6">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Code className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">Eagle Crest</span>
-            </Link>
+              <Link href="/" className="flex items-center  group mb-6">
+           <img src="ecrest.jpg" alt="Eagle crest Logo" className="h-12 rounded-lg" />
+          </Link>
             <p className="text-gray-300 mb-6 max-w-md">
               Leading software development company building real-world solutions that solve complex problems for
               individuals and organizations across various industries.
@@ -92,15 +89,13 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 mb-4 md:mb-0">© {currentYear} Eagle Crest. All rights reserved.</p>
           <div className="flex space-x-6">
-            <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="#" className="text-gray-300 text-sm hover:text-white transition-colors">
               Privacy Policy
             </Link>
-            <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+            <Link href="#" className="text-gray-300 text-sm hover:text-white transition-colors">
               Terms of Service
             </Link>
-            <Link href="#" className="text-gray-300 hover:text-white transition-colors">
-              Cookie Policy
-            </Link>
+           
           </div>
         </div>
       </div>
