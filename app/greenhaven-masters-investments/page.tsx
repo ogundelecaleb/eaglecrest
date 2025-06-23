@@ -1,5 +1,6 @@
 import { LeafIcon, CheckCircle, ArrowRight, Droplets, TreePine, BarChart3, Tractor, MapPin, Wrench } from "lucide-react"
 import Link from "next/link"
+import FarmImages from "../components/Review"
 
 export default function GreenhavenPage() {
   return (
@@ -371,6 +372,8 @@ Future Expansion & Diversification</h2>
             </div>
           </div>
 
+          <FarmImages/>
+
           {/* Timeline */}
           <div className="bg-white p-8 rounded-xl shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Development Timeline</h3>
@@ -394,6 +397,7 @@ Future Expansion & Diversification</h2>
           </div>
         </div>
       </section>
+
 
       {/* CTA Section */}
       <section className="section-padding bg-green-600 text-white">
