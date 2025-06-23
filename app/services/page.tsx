@@ -6,6 +6,7 @@ import {
   CheckCircle,
   ArrowRight,
   LeafIcon,
+  ArrowRightToLine,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -14,6 +15,7 @@ export default function Services() {
     {
       icon: GraduationCap,
       title: "Scholarships and Grants Management Platform",
+      link:"/scholarships-and-grants",
       description:
         "Fully digitalised platform from application to disbursement of all scholarships, grants and awards",
       features: [
@@ -36,6 +38,8 @@ export default function Services() {
     {
       icon: Users,
       title: "Human Resource Management Platform",
+      link:"/human-resource-management",
+
       description:
         "Complete HRM solution for managing leave applications, staff regularization, job postings, and approval workflows in companies, government and MDA’s.",
       features: [
@@ -57,6 +61,7 @@ export default function Services() {
     {
       icon: BookOpen,
       title: "Library Management Platform",
+      link:"/library-management-platform",
       description:
         "Digital library system enabling students to reserve, borrow, and track books remotely while providing librarians with comprehensive inventory management.",
       features: [
@@ -78,6 +83,7 @@ export default function Services() {
     {
       icon: CreditCard,
       title: "Payment Gateway Platform",
+      link:"/payment-gateway-platform",
       description:
         "Secure payment infrastructure supporting multiple payment methods including cards, bank transfers, and invoices for businesses of all sizes.",
       features: [
@@ -99,6 +105,8 @@ export default function Services() {
      {
       icon: LeafIcon,
       title: "Greenhaven masters investments",
+      link:"/greenhaven-masters-investments",
+
       description:
         "Greenhaven masters investments limited registered in 2015 is an agric company and an allotte of 50 hectares of agric farmland from Ogun State Government. This farm is an oil palms plantation",
       features: [
@@ -146,7 +154,7 @@ export default function Services() {
                 }`}
               >
                 <div className={index % 2 === 1 ? "lg:col-start-2" : ""}>
-                  <div className="bg-blue-900  p-2 md:p-3 rounded-lg flex-shrink-0 w-fit">
+                  <div className="bg-blue-900 mb-2  p-2 md:p-3 rounded-lg flex-shrink-0 w-fit">
                     <service.icon className="h-4 w-4 md:h-6 md:w-6 text-white" />
                   </div>
                   <div className="mb-4">
@@ -158,9 +166,9 @@ export default function Services() {
                     </p>
                   </div>
 
-                  <div className="mb-8">
+                  <div className="">
                     <h3 className="text-base md:text-lg font-bold text-gray-900 mb-4">
-                      Key Benefits
+                        Platform Features
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                       {service?.benefits.map((benefit, benefitIndex) => (
@@ -169,29 +177,30 @@ export default function Services() {
                           className="flex items-center space-x-2"
                         >
                           <CheckCircle className="h-4 w-4 md:h-5 md:w-5 text-green-500 flex-shrink-0" />
-                          <span className="text-gray-700">{benefit}</span>
+                          <span className="text-gray-700 text-sm md:text-base">{benefit}</span>
                         </div>
                       ))}
                     </div>
+                    <Link href={service?.link}  className="text-white text-sm flex items-center gap-1 mt-3 p-2 bg-blue-900 rounded-md hover:shadow w-fit ">See More <ArrowRight  className="h-4"/></Link>
                   </div>
                 </div>
 
                 <div
-                  className={`bg-gray-50 p-8 rounded-xl ${
+                  className={`bg-gray-50 p-4 md:p-8 rounded-xl ${
                     index % 2 === 1 ? "lg:col-start-1" : ""
                   }`}
                 >
-                  <h3 className="text-xl font-bold text-gray-900 mb-6">
-                    Platform Features
+                  <h3 className="text-base md:text-xl font-bold text-gray-900 mb-6">
+                   Key Benefits
                   </h3>
-                  <div className="space-y-4">
+                  <div className="space-y-2 md:space-y-4">
                     {service.features.map((feature, featureIndex) => (
                       <div
                         key={featureIndex}
                         className="flex items-start space-x-3"
                       >
                         <div className="w-2 h-2 bg-blue-900 rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-gray-700">{feature}</span>
+                        <span className="text-gray-700 text-sm md:text-base">{feature}</span>
                       </div>
                     ))}
                   </div>
