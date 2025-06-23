@@ -12,12 +12,12 @@ export default function CTA() {
             with a free consultation today.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="btn-primary bg-white text-blue-900 hover:bg-blue-50">
+          <div className="flex flex-row gap-4 justify-center items-center">
+            <Link href="/contact" className="btn-primary w-fit bg-white text-blue-900 hover:bg-blue-50">
               <MessageCircle className="mr-2 h-5 w-5" />
               Start Your Project
             </Link>
-            <Link href="/services" className="btn-secondary border-white text-white hover:bg-white hover:text-blue-900">
+            <Link href="/services" className="btn-secondary w-fit border-white text-white hover:bg-white hover:text-blue-900">
               View Our Work
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
