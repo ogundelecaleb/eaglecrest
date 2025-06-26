@@ -29,7 +29,7 @@ export default function About() {
       {/* Hero Section */}
       <section className="section-padding gradient-bg text-white">
         <div className="container-custom text-center">
-        <h1 className="text-2xl md:text-4xl font-bold mb-6">About Eagle Crest</h1>
+        <h1 className="text-2xl md:text-4xl font-bold mb-6">About Eaglecrest</h1>
           <p className="text-base md:text-xl text-blue-100 max-w-3xl mx-auto">
             We are a leading software development company dedicated to building real-world solutions that solve complex
             problems for individuals and organizations across various industries.
@@ -96,7 +96,7 @@ export default function About() {
       <section className="section-padding">
         <div className="container-custom">
           <div className="text-center mb-16">
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Why Organizations Trust Eagle Crest</h2>
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Why Organizations Trust Eaglecrest</h2>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">

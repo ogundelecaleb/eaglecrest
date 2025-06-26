@@ -1,4 +1,4 @@
-# Eagle crest website
+# Eaglecrest website
 
 *Automatically synced with your [v0.dev](https://v0.dev) deployments*
 

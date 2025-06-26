@@ -35,7 +35,7 @@ export default function Hero() {
                 That Transform Business
               </h1>
               <p className="text-sm md:text-base text-blue-100 text-justify lg:max-w-[80%]">
-                Eagle Crest specializes in developing real-world software solutions that solve complex problems for
+                Eaglecrest specializes in developing real-world software solutions that solve complex problems for
                 individuals and organizations. From HRM systems to payment gateways, we deliver quality software that
                 complies with regulations.
               </p>

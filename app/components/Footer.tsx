@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
               <Link href="/" className="flex items-center  group mb-6">
-           <img src="ecrest.jpg" alt="Eagle crest Logo" className="h-12 rounded-lg" />
+           <img src="ecrest.jpg" alt="Eaglecrest Logo" className="h-12 rounded-lg" />
           </Link>
             <p className="text-gray-300 mb-6 max-w-md">
               Leading software development company building real-world solutions that solve complex problems for
@@ -87,7 +87,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-300 mb-4 md:mb-0">© {currentYear} Eagle Crest. All rights reserved.</p>
+          <p className="text-gray-300 mb-4 md:mb-0">© {currentYear} Eaglecrest. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="#" className="text-gray-300 text-sm hover:text-white transition-colors">
               Privacy Policy

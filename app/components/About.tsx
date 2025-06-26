@@ -29,8 +29,8 @@ export default function About() {
     <section className="section-padding bg-gray-50">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Why Choose Eagle Crest?</h2>
-          <p className="text-sm text-lg text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Why Choose EagleCrest?</h2>
+          <p className="text-sm md:text-lg text-gray-600 max-w-3xl mx-auto">
             We are a leading software development company that specializes in building real-world solutions that solve
             complex problems for both individuals and organizations.
           </p>

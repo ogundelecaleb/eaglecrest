@@ -32,7 +32,7 @@ export default function WhyChooseUs() {
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-xl md:text-3xl font-bold mb-6">Why Businesses Trust Eagle Crest</h2>
+            <h2 className="text-xl md:text-3xl font-bold mb-6">Why Businesses Trust Eaglecrest</h2>
             <p className="text-base md:text-lg text-blue-100 mb-8">
               We have built a reputation for delivering high-quality software solutions that not only meet but exceed
               our clients' expectations. Our commitment to excellence drives everything we do.
